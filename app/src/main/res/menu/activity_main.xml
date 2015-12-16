@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_complete"
+        android:title="@string/menu_complete"
+        android:icon="@mipmap/ic_meat"
+        android:showAsAction="always" />
+    <item android:id="@+id/menu_veg"
+        android:title="@string/menu_veg"
+        android:icon="@mipmap/ic_carrot"
+        android:showAsAction="always" />
+    <item android:id="@+id/menu_special"
+        android:title="@string/menu_special"
+        android:icon="@mipmap/ic_special"
+        android:showAsAction="always" />
+</menu>

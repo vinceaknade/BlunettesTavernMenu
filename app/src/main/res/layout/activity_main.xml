@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+    
+    <Gallery
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MainGallery"
+        android:background="@color/colorBackground"/>
+    
+    <!-- note i think the #cfcfcf is a color -->
+    <ImageView
+        android:id="@+id/imgMain"
+        android:layout_width="215dp"
+        android:layout_height="315dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorBackground"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/barracudameuniere"
+    />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Purchase"
+        android:id="@+id/btnPurchase"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorBackground"
+        android:textColor="@color/colorGold"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:typeface="serif" />
+</LinearLayout>
